@@ -1,0 +1,20 @@
+{
+  "name": "recordlift",
+  "version": "1.0.0",
+  "description": "a website that lets a user create, search and review previous workouts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorezAdam-FS/recordlift.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlorezAdam-FS/recordlift/issues"
+  },
+  "homepage": "https://github.com/FlorezAdam-FS/recordlift#readme"
+}
