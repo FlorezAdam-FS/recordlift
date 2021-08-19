@@ -1,18 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&display=swap");
-body {
-  background-color: #292929;
-  font-family: "Montserrat", sans-serif;
-  padding: 0;
-  margin: 0;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  overflow-x: hidden;
-}
+/* 
 
-html {
-  font-size: 0.625rem;
-  overflow-x: hidden;
-}
 
 h1 {
   text-align: center;
@@ -57,10 +44,7 @@ header nav {
           justify-content: space-between;
 }
 
-header nav .fa-bars {
-  color: white;
-  font-size: 2.4rem;
-}
+
 
 header nav ul {
   position: absolute;
@@ -100,16 +84,7 @@ header nav ul .fa-times {
   color: white;
 }
 
-header nav ul li {
-  margin: 2rem 0;
-  font-size: 1.3rem;
-}
 
-header nav ul li a {
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-}
 
 .search {
   display: -webkit-box;
@@ -136,29 +111,9 @@ header nav ul li a {
   font-size: 1.2rem;
 }
 
-.search i {
-  padding: 1rem;
-  color: white;
-  font-size: 1.8rem;
-}
 
-.workoutSection {
-  max-width: 1000px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 400px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 95%;
-  margin: 0 auto;
-  position: relative;
-  overflow-x: scroll;
-}
+
+
 
 .workoutSection .workouts {
   position: absolute;
@@ -272,5 +227,87 @@ header nav ul li a {
   z-index: 100;
   position: relative;
   text-align: center;
-}
+} */
 /*# sourceMappingURL=main.css.map */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&display=swap");
+
+body {
+  background-color: #000002 !important;
+  color: white !important;
+  font-family: "Montserrat", sans-serif !important;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 0.625rem;
+}
+
+.fa-bars {
+  color: white;
+  font-size: 2.4rem;
+}
+
+.fa-search {
+  color: white;
+  background: #292929;
+  font-size: 1.7rem;
+}
+
+.search input {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+a {
+  color: white;
+  font-size: 1.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.4rem !important;
+}
+
+.btn-success {
+  background-color: #19d95e !important;
+  font-size: 1.4rem !important;
+}
+
+.workoutSection {
+  overflow-x: scroll !important;
+}
+
+.workout-card {
+  width: 250px !important;
+}
+
+.categories div {
+  cursor: pointer;
+  font-size: 2.8rem !important;
+}
+
+span {
+  font-size: 1rem !important;
+  color: rgb(155, 155, 155);
+}
+
+.delete {
+  position: absolute;
+  right: -3.5rem;
+  top: 0;
+}

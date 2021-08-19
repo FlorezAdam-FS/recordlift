@@ -57,7 +57,6 @@ const bodyPartOptions = [
   "chest",
   "lower arms",
   "lower legs",
-  "neck",
   "shoulders",
   "upper arms",
   "upper legs",
@@ -70,11 +69,11 @@ const bodyPartImages = [
   "https://images.pexels.com/photos/3837757/pexels-photo-3837757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   "https://images.pexels.com/photos/1978505/pexels-photo-1978505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   "https://images.pexels.com/photos/1166868/pexels-photo-1166868.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "https://images.pexels.com/photos/6932883/pexels-photo-6932883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   "https://images.pexels.com/photos/6550851/pexels-photo-6550851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   "https://images.pexels.com/photos/7673598/pexels-photo-7673598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   "https://images.pexels.com/photos/4498155/pexels-photo-4498155.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
 ];
 
-const popularWorkoutsOptions = [];
+const AddedWorkouts = [];
+const mainUser = [];
