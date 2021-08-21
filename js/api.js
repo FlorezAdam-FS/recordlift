@@ -32,7 +32,7 @@ function GetByBodyPart(bp) {
         let div = document.createElement("div");
 
         div.innerHTML = `
-          <div class="card workout-card border-0 shadow p-4 me-5" style="background: #272727">
+        <div class="card workout-card border-0 p-4 me-5">
             <img
               class="card-img"
               src="${data.gifUrl}"
@@ -42,7 +42,7 @@ function GetByBodyPart(bp) {
             <p class="card-caption text-center mb-3 font-weight-lighter text-truncate">
               Targets: ${data.target}
             </p>
-            <button class="btn text-white p-3" id="${data.id}" data-bs-toggle="modal" data-bs-target="#modal">
+            <button class="btn btn-success text-white p-3" id="${data.id}" data-toggle="modal" data-target="#modal">
               <i class="fa fa-plus me-2"></i>Add Workout
             </button>
           </div>
@@ -78,7 +78,7 @@ function GetByTarget(target) {
         let div = document.createElement("div");
 
         div.innerHTML = `
-          <div class="card workout-card border-0 shadow p-4 me-5" style="background: #272727">
+        <div class="card workout-card border-0 p-4 me-5">
             <img
               class="card-img"
               src="${data.gifUrl}"
@@ -88,7 +88,7 @@ function GetByTarget(target) {
             <p class="card-caption text-truncate text-center mb-3 font-weight-lighter">
               Targets: ${data.target}
             </p>
-            <button class="btn text-white p-3" id="${data.id}" data-bs-toggle="modal" data-bs-target="#modal">
+            <button class="btn btn-success text-white p-3" id="${data.id}" data-toggle="modal" data-target="#modal">
               <i class="fa fa-plus me-2"></i>Add Workout
             </button>
           </div>
@@ -124,7 +124,7 @@ function GetByEquipment(equipment) {
         let div = document.createElement("div");
 
         div.innerHTML = `
-          <div class="card workout-card border-0 shadow bg-dark p-4 me-5" style="background: #272727">
+        <div class="card workout-card border-0 p-4 me-5">
             <img
               class="card-img"
               src="${data.gifUrl}"
@@ -134,7 +134,7 @@ function GetByEquipment(equipment) {
             <p class="card-caption text-center mb-3 font-weight-lighter text-truncate">
               Targets: ${data.target}
             </p>
-            <button class="btn text-white p-3" id="${data.id}" data-bs-toggle="modal" data-bs-target="#modal">
+            <button class="btn btn-success text-white p-3" id="${data.id}" data-toggle="modal" data-target="#modal">
               <i class="fa fa-plus me-2"></i>Add Workout
             </button>
           </div>
@@ -179,7 +179,7 @@ async function GetAll(one, two, three, four, five) {
       let div5 = document.createElement("div");
 
       div1.innerHTML = `
-          <div class="card workout-card border-0 shadow p-4 me-5" style="background: #222222">
+          <div class="card workout-card border-0 p-4 me-5">
             <img
               class="card-img"
               src="${first.gifUrl}"
@@ -189,14 +189,14 @@ async function GetAll(one, two, three, four, five) {
             <p class="card-caption text-center mb-3 font-weight-lighter text-truncate">
               Targets: ${first.target}
             </p>
-            <button class="btn text-white p-3" id="${first.id}" data-bs-toggle="modal" data-bs-target="#modal">
+            <button class="btn btn-success text-white p-3" id="${first.id}" data-toggle="modal" data-target="#modal">
               <i class="fa fa-plus me-2"></i>Add Workout
             </button>
           </div>
           `;
 
       div2.innerHTML = `
-          <div class="card workout-card border-0 shadow p-4 me-5" style="background: #242424">
+      <div class="card workout-card border-0 p-4 me-5">
             <img
               class="card-img"
               src="${second.gifUrl}"
@@ -206,14 +206,14 @@ async function GetAll(one, two, three, four, five) {
             <p class="card-caption text-center mb-3 font-weight-lighter text-truncate">
               Targets: ${second.target}
             </p>
-            <button class="btn text-white p-3" id="${second.id}" data-bs-toggle="modal" data-bs-target="#modal">
+            <button class="btn btn-success text-white p-3" id="${second.id}" data-toggle="modal" data-target="#modal">
               <i class="fa fa-plus me-2"></i>Add Workout
             </button>
           </div>
           `;
 
       div3.innerHTML = `
-          <div class="card workout-card border-0 shadow p-4 me-5" style="background: #272727">
+      <div class="card workout-card border-0 p-4 me-5">
             <img
               class="card-img"
               src="${third.gifUrl}"
@@ -223,13 +223,13 @@ async function GetAll(one, two, three, four, five) {
             <p class="card-caption text-center mb-3 font-weight-lighter text-truncate">
               Targets: ${third.target}
             </p>
-            <button class="btn text-white p-3" id="${third.id}" data-bs-toggle="modal" data-bs-target="#modal">
+            <button class="btn btn-success text-white p-3" id="${third.id}" data-toggle="modal" data-target="#modal">
               <i class="fa fa-plus me-2"></i>Add Workout
             </button>
           </div>
           `;
       div4.innerHTML = `
-          <div class="card workout-card border-0 shadow p-4 me-5" style="background: #272727">
+      <div class="card workout-card border-0 p-4 me-5">
             <img
               class="card-img"
               src="${fourth.gifUrl}"
@@ -239,13 +239,13 @@ async function GetAll(one, two, three, four, five) {
             <p class="card-caption text-center mb-3 font-weight-lighter text-truncate">
               Targets: ${fourth.target}
             </p>
-            <button class="btn text-white p-3" id="${fourth.id}" data-bs-toggle="modal" data-bs-target="#modal">
+            <button class="btn btn-success text-white p-3" id="${fourth.id}" data-toggle="modal" data-target="#modal">
               <i class="fa fa-plus me-2"></i>Add Workout
             </button>
           </div>
           `;
       div5.innerHTML = `
-          <div class="card workout-card border-0 shadow p-4 me-5" style="background: #272727">
+      <div class="card workout-card border-0 p-4 me-5">
             <img
               class="card-img"
               src="${fifth.gifUrl}"
@@ -255,7 +255,7 @@ async function GetAll(one, two, three, four, five) {
             <p class="card-caption text-center mb-3 font-weight-lighter text-truncate">
               Targets: ${fifth.target}
             </p>
-            <button class="btn text-white p-3" id="${fifth.id}" data-bs-toggle="modal" data-bs-target="#modal">
+            <button class="btn btn-success text-white p-3" id="${fifth.id}" data-toggle="modal" data-target="#modal">
               <i class="fa fa-plus me-2"></i>Add Workout
             </button>
           </div>
@@ -306,7 +306,7 @@ function GetAllWithKeyword(keyword) {
           let div = document.createElement("div");
 
           div.innerHTML = `
-          <div class="card workout-card border-0 shadow p-4 me-5" style="background: #272727">
+          <div class="card workout-card border-0 p-4 me-5">
             <img
               class="card-img"
               src="${data.gifUrl}"
@@ -316,7 +316,7 @@ function GetAllWithKeyword(keyword) {
             <p class="card-caption text-center mb-3 font-weight-lighter text-truncate">
               Targets: ${data.target}
             </p>
-            <button class="btn text-white p-3" id="${data.id}" data-bs-toggle="modal" data-bs-target="#modal">
+            <button class="btn btn-success text-white p-3" id="${data.id}" data-toggle="modal" data-target="#modal">
               <i class="fa fa-plus me-2"></i>Add Workout
             </button>
           </div>

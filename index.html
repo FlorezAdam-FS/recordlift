@@ -3,28 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Record Lift Search Workouts</title>
-    <link rel="stylesheet" href="css/main.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <title>Record Lift Search Workouts</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-dark"
-      style="background-color: #19d95e"
-    >
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="#"><img src="logo.svg" alt="" /></a>
         <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -39,21 +36,28 @@
             class="
               nav-item nav-link
               text-black text-center text-uppercase
-              fw-bold
+              search-workouts
             "
             aria-current="page"
             href="index.html"
             >Search Workout</a
           >
           <a
-            class="nav-item nav-link text-black text-center text-uppercase p-0"
-            href="todaysworkout.html"
+            class="
+              nav-item nav-link
+              text-black text-center text-uppercase
+              p-0
+              todays-workout
+            "
+            href=""
             >Todays Workout</a
           >
         </div>
       </div>
     </nav>
-    <div class="container">
+
+    <!-- Search Workouts -->
+    <div class="container search-section">
       <h1 class="text-center text-white mt-5">Search Workouts</h1>
       <form onsubmit="">
         <div
@@ -90,17 +94,25 @@
       <section class="categories d-flex flex-wrap"></section>
     </div>
 
-    <div class="modal text-black" id="modal" tabindex="-1">
+    <!-- Todays Workouts -->
+    <div class="workout-section container workouts mt-4"></div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Modal -->
+    <div class="modal text-dark" id="modal" tabindex="-1">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title fs-2">Workout has been added!</h5>
             <button
               type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
+              class="btn btn-close"
+              data-dismiss="modal"
               aria-label="Close"
-            ></button>
+            >
+              <i class="fa fa-times"></i>
+            </button>
           </div>
           <div class="modal-body">
             <h6 class="fs-5">Details</h6>
@@ -108,28 +120,19 @@
             <ul class="modal-list list-unstyled"></ul>
           </div>
           <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
               Close
             </button>
           </div>
         </div>
       </div>
     </div>
+
     <script src="js/globals.js"></script>
     <script src="js/api.js"></script>
-    <script src="js/pantry.js"></script>
     <script src="js/main.js"></script>
     <script
       src="https://kit.fontawesome.com/d24b63793e.js"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
       crossorigin="anonymous"
     ></script>
   </body>

@@ -1,239 +1,7 @@
-/* 
-
-
-h1 {
-  text-align: center;
-  color: white;
-  margin-top: 3rem;
-  margin-bottom: 0.4rem;
-  font-size: 2.4rem;
-}
-
-h2 {
-  font-size: 2rem;
-  width: 95%;
-  max-width: 1000px;
-  margin: 4rem auto 1rem;
-  color: white;
-}
-
-section {
-  max-width: 1000px;
-  width: 95%;
-  margin: 0 auto;
-}
-
-header {
-  width: 100%;
-  background-color: #19d95e;
-  padding: 1rem 0;
-}
-
-header nav {
-  width: 95%;
-  max-width: 1000px;
-  margin: 1rem auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-
-
-header nav ul {
-  position: absolute;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background-color: #212121;
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
-  -webkit-transition: all 500ms ease-in-out;
-  transition: all 500ms ease-in-out;
-}
-
-header nav ul .fa-times {
-  position: absolute;
-  top: 2.5rem;
-  right: 1.7rem;
-  font-size: 2.4rem;
-  color: white;
-}
-
-
-
-.search {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: rgba(80, 80, 80, 0.5);
-  border: 1px solid #8a8a8a;
-  width: 95%;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.search input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  height: 100%;
-  width: 100%;
-  padding: 1rem;
-  border: none;
-  background-color: transparent;
-  outline: none;
-  color: white;
-  font-size: 1.2rem;
-}
-
-
-
-
-
-.workoutSection .workouts {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-}
-
-.workoutSection .workouts li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: gray;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 250px;
-  margin-right: 2rem;
-  padding: 1rem;
-}
-
-.workoutSection .workouts li h3 {
-  font-size: 1.2rem;
-  text-align: center;
-  margin: 1rem 1rem;
-}
-
-.workoutSection .workouts li img {
-  width: 230px;
-  height: 230px;
-}
-
-.workoutSection .workouts li button {
-  padding: 1rem 2rem;
-  width: calc(100% - 1rem);
-  margin: auto auto 0;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  text-transform: uppercase;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-}
-
-.categories {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-}
-
-.categories div {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 150px;
-  position: relative;
-  z-index: 1;
-  margin-bottom: 1rem;
-}
-
-.categories div label {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  color: white;
-  z-index: 1000;
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 48px;
-  width: 100%;
-  text-align: center;
-  line-height: 150px;
-  height: 100%;
-  -webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  cursor: pointer;
-}
-
-.categories div label:hover {
-  background-color: #19d95e70;
-  font-weight: 700;
-}
-
-.categories div input {
-  letter-spacing: 1px;
-  width: 100%;
-  height: 100%;
-  margin-right: 1rem;
-  border: none;
-  color: white;
-  background-color: transparent;
-  z-index: 100;
-  position: relative;
-  text-align: center;
-} */
-/*# sourceMappingURL=main.css.map */
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&display=swap");
 
 body {
-  background-color: #000002 !important;
+  background-color: #272727 !important;
   color: white !important;
   font-family: "Montserrat", sans-serif !important;
   padding: 0;
@@ -244,17 +12,25 @@ body {
 }
 
 html {
-  font-size: 0.625rem;
+  font-size: 0.625rem !important;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+.navbar {
+  background-color: #19d95e;
 }
 
 .fa-bars {
-  color: white;
+  color: #272727;
   font-size: 2.4rem;
 }
 
 .fa-search {
+  cursor: pointer;
   color: white;
-  background: #292929;
   font-size: 1.7rem;
 }
 
@@ -288,26 +64,85 @@ h3 {
   font-size: 1.4rem !important;
 }
 
+.btn-success:hover {
+  background-color: #00c648 !important;
+}
+
 .workoutSection {
-  overflow-x: scroll !important;
+  overflow-x: scroll;
+  padding: 1rem;
+  box-shadow: inset 5px 5px 10px #1f1f1f, inset -5px -5px 10px #212121;
+}
+
+.workoutSection::-webkit-scrollbar {
+  display: none;
 }
 
 .workout-card {
+  background-color: #212121 !important;
+  box-shadow: 0px 0px 10px #111;
   width: 250px !important;
+  margin-right: 3rem;
 }
 
 .categories div {
   cursor: pointer;
-  font-size: 2.8rem !important;
+}
+
+.categories div p {
+  font-size: 2rem;
 }
 
 span {
-  font-size: 1rem !important;
-  color: rgb(155, 155, 155);
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: rgb(191, 191, 191);
 }
 
+.page-hidden {
+  display: none !important;
+}
+
+.search-workouts,
+.todays-workout,
+.workout-section,
+.search-section {
+  transition: all 300ms ease-in-out !important;
+}
+
+.nav-item,
+.nav-item:hover {
+  color: #272727;
+}
+
+.addSet,
 .delete {
-  position: absolute;
-  right: -3.5rem;
-  top: 0;
+  height: 3.2rem !important;
+}
+
+.addSet {
+  margin-right: 1rem !important;
+}
+
+.rounded-circle {
+  font-size: 1.5rem;
+}
+
+.rounded-pill {
+  padding: 0 1.4rem 0 3rem;
+  margin-right: 0.4rem;
+}
+
+.active {
+  font-weight: bold !important;
+}
+
+.fa-plus {
+  margin-right: 1rem;
+}
+
+@media (max-width: 400px) {
+  .addSet {
+    font-size: 0.8rem !important;
+  }
 }
